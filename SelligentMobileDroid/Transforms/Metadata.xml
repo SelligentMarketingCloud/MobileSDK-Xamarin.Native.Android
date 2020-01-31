@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>    
+    <attr path="/api/package[@name='com.selligent.sdk']/class[@name='SMEventActionEnum']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.selligent.sdk']/class[@name='SMWebView']" name="visibility">public</attr>
+   
+</metadata>

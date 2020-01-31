@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "499437333429",
+    "firebase_url": "https://selligenttest-fd7fa.firebaseio.com",
+    "project_id": "selligenttest-fd7fa",
+    "storage_bucket": "selligenttest-fd7fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499437333429:android:b25479c80aaa02d82347fc",
+        "android_client_info": {
+          "package_name": "com.riseup.smxamdroidtemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499437333429-u432m3jjjmitknsgn1vb5k9ur8mt4lod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe6GQQpBR7dreEctLCIdXZ5VGCV4Pim6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499437333429-u432m3jjjmitknsgn1vb5k9ur8mt4lod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

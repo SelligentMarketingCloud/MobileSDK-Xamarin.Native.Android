@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.1" package="com.riseup.smxamdroidtemplate" android:versionCode="15">
+	<!-- This is needed to be able to receive the push
+        Since 1.5, if you use a version of Google Play Services >= 9.0, you can choose to use the new way to connect to Firebase Cloud Messaging, using a JSON file.
+        To do so, you only have to add that file (given by Firebase when adding Cloud Messaging to your Firebase project) at the root of your app module and
+        modify your gradle files as explained on the website. In that case, these 2 lines are useless. -->
+	<!-- "Dangerous" permissions granted by the user (at install with API < 23, at runtime with API >= 23) -->
+	<!-- If you don't use the corresponding functionality, you can avoid adding these permissions to your manifest -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<!-- Needed to show the user location in map view (you only need one of the two) -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<!-- Needed to show the user location in map view (you only need one of the two) and for Geofencing -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<!-- Needed to get a picture for a push/In app with response -->
+	<!-- Since 1.5, if you use a version of Google Play Services >= 9.0, you can choose to use the new way to connect to Firebase Cloud Messaging, using a JSON file.
+        To do so, you only have to add that file (given by Firebase when adding Cloud Messaging to your Firebase project) at the root of your app module and
+        modify your gradle files as explained on the website. In that case, this permission is useless. -->
+	<permission android:name="com.riseup.smxamdroidtemplate.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
+	<application android:allowBackup="true" android:largeHeap="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+		<receiver android:name=".EventReceiver" android:exported="false">
+			<intent-filter>
+				<!-- This restrict the listening to the events sent by Selligent Mobile SDK, you have to put your own package name here -->
+				<category android:name="com.riseup.smxamdroidtemplate" />
+			</intent-filter>
+		</receiver>
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
