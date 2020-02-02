@@ -28,9 +28,9 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 You will need to add dependencies necessary for your app to build by adding the nuggets listed below to your solutiton. The names here under are formatted as `[Package.Name].[version.number]`
 
 	
-	### Xamarin.AndroidX packages :
+### Xamarin.AndroidX packages :
 
-	 	**(Note that at the time of this writing Xamarin.AndroidX packages are only available as pre-release packages so you will have to check the box that is labeled "show pre-release packages" in your nuget manager)** 
+**(Note that at the time of this writing Xamarin.AndroidX packages are only available as pre-release packages so you will have to check the box that is labeled "show pre-release packages" in your nuget manager)** 
 		
 		Xamarin.Android.Arch.Core.Common.1.1.1.3
 		Xamarin.Android.Arch.Core.Runtime.1.1.1.3
@@ -112,12 +112,12 @@ You will need to add dependencies necessary for your app to build by adding the 
 		Xamarin.AndroidX.VersionedParcelable.1.1.0-rc1
 		Xamarin.AndroidX.ViewPager.1.0.0-rc1
 
-	###  Xamarin base packages:
+###  Xamarin base packages:
 
 		Xamarin.Build.Download.0.4.11
 		Xamarin.Essentials.1.3.1
 
-	###  Firebase packages:
+###  Firebase packages:
 
 		Xamarin.Firebase.Common.71.1610.0
 		Xamarin.Firebase.Iid.71.1710.0
@@ -125,7 +125,7 @@ You will need to add dependencies necessary for your app to build by adding the 
 		Xamarin.Firebase.Measurement.Connector.71.1701.0
 		Xamarin.Firebase.Messaging.71.1740.0
 
-	###  Google play services packages:
+###  Google play services packages:
 
 		Xamarin.Google.AutoValue.Annotations.1.6.5
 		Xamarin.GooglePlayServices.Base.71.1610.0
@@ -133,7 +133,7 @@ You will need to add dependencies necessary for your app to build by adding the 
 		Xamarin.GooglePlayServices.Stats.71.1601.0
 		Xamarin.GooglePlayServices.Tasks.71.1601.0
 
-	###	GoogleGson:
+###	GoogleGson:
 
 		GoogleGson.2.8.5
 
