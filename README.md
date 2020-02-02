@@ -25,7 +25,10 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 
 ## 2. Dependencies
 
-1.	You will need to add dependencies necessary for your app to build by adding the following nuggets to your solutiton **(Note that at the time of this writing Xamarin.AndroidX packages are only available as pre-release packages)** :
+1.	You will need to add dependencies necessary for your app to build by adding the following nuggets to your solutiton:
+
+
+ **(Note that at the time of this writing Xamarin.AndroidX packages are only available as pre-release packages so you will have to check the box that is labeled "show pre-release packages" in your nuget manager)** 
 	
 	Xamarin.Android.Arch.Core.Common.1.1.1.3
 	Xamarin.Android.Arch.Core.Runtime.1.1.1.3
