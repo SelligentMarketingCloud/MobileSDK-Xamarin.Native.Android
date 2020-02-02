@@ -135,7 +135,7 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 		Xamarin.GooglePlayServices.Stats.71.1601.0
 		Xamarin.GooglePlayServices.Tasks.71.1601.0
 
-	* GoogleGson:
+	###	GoogleGson:
 
 		GoogleGson.2.8.5
 
