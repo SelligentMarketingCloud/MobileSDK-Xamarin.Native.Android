@@ -19,8 +19,8 @@ namespace SMXAMDROIDTemplate
             //Initialize the Selligent Mobile SDK like this
 
             var url = "https://mobile.slgnt.eu/MobilePush/api/";
-            var clientId = "f06ff4cc-15c5-48b1-b405-d78dfc93f3de";
-            var key = "/5v3UKuFJ237PSOQy6BYtICR8+DaU/YWhjBz2JI3q8wrAIBCYt7eSWZith+sIFNWgQqdYdMx+EhYoZUa8NUsIw==";
+            var clientId = "";
+            var key = "";
 
             SMSettings settings = new SMSettings();
             settings.WebServiceUrl = url;
