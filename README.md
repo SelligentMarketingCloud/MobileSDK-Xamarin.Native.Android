@@ -122,7 +122,7 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 	*	Xamarin.GooglePlayServices.Stats.71.1601.0
 	*	Xamarin.GooglePlayServices.Tasks.71.1601.0
 
-## Documentation
+## 3. Documentation
 
 You can refer to the native documentation for information on what extra dependencies you will need for the SDK to work and how to use it. The documentation is availble at the following link : [Android - Using the SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android/blob/master/Documentation/Android%20-%20Using%20the%20SDK.pdf)
 
