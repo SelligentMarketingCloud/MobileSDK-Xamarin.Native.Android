@@ -25,10 +25,14 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 
 ## 2. Dependencies
 
-1.	You will need to add dependencies necessary for your app to build by adding the following nuggets to your solutiton:
+1.	You will need to add dependencies necessary for your app to build by adding the nuggets listed below to your solutiton. The names here under are formatted as 
 
+		`[Package.Name].[version.number]`
 
- **(Note that at the time of this writing Xamarin.AndroidX packages are only available as pre-release packages so you will have to check the box that is labeled "show pre-release packages" in your nuget manager)** 
+	
+	* Xamarin.AndroidX packages :
+
+ 	**(Note that at the time of this writing Xamarin.AndroidX packages are only available as pre-release packages so you will have to check the box that is labeled "show pre-release packages" in your nuget manager)** 
 	
 	Xamarin.Android.Arch.Core.Common.1.1.1.3
 	Xamarin.Android.Arch.Core.Runtime.1.1.1.3
@@ -109,22 +113,35 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 	Xamarin.AndroidX.VectorDrawable.Animated.1.1.0-rc1
 	Xamarin.AndroidX.VersionedParcelable.1.1.0-rc1
 	Xamarin.AndroidX.ViewPager.1.0.0-rc1
+
+	* Xamarin base packages:
+
 	Xamarin.Build.Download.0.4.11
 	Xamarin.Essentials.1.3.1
+
+	* Firebase packages:
+
 	Xamarin.Firebase.Common.71.1610.0
 	Xamarin.Firebase.Iid.71.1710.0
 	Xamarin.Firebase.Iid.Interop.71.1601.0
 	Xamarin.Firebase.Measurement.Connector.71.1701.0
 	Xamarin.Firebase.Messaging.71.1740.0
+
+	* Google play services packages:
+
 	Xamarin.Google.AutoValue.Annotations.1.6.5
 	Xamarin.GooglePlayServices.Base.71.1610.0
 	Xamarin.GooglePlayServices.Basement.71.1620.0
 	Xamarin.GooglePlayServices.Stats.71.1601.0
 	Xamarin.GooglePlayServices.Tasks.71.1601.0
 
+	* GoogleGson:
+
+	GoogleGson.2.8.5
+
 
 ## 3. Documentation
 
-You can refer to the native documentation for information on what extra dependencies you will need for the SDK to work and how to use it. The documentation is availble at the following link : [Android - Using the SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android/blob/master/Documentation/Android%20-%20Using%20the%20SDK.pdf)
+You can refer to the native documentation for information on how to use the SDK. The documentation is availble at the following link : [Android - Using the SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android/blob/master/Documentation/Android%20-%20Using%20the%20SDK.pdf)
 
 You can also take a look at the sample app provided under the SMXAMDROIDTemplate folder
