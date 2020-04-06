@@ -25,7 +25,7 @@ After following one of these set of steps the *SelligentMobile_ANDROID_Xamarin.d
 
 ## 2. Dependencies
 
-You will need to add dependencies necessary for your app to build by adding the nuggets listed below to your solutiton. The names here under are formatted as `[Package.Name].[version.number]`
+You will need to add dependencies necessary for your app to build by adding the nuggets listed below to your solutiton.
 
 ###  Google packages:
 
