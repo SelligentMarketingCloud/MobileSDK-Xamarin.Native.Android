@@ -1,3 +1,5 @@
+⛔️ DEPRECATED - No further updates will be delivered
+
 # MobileSDK-Xamarin.Native.Android
 
 ## 1. Installation
